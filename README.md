@@ -86,15 +86,15 @@ wget https://github.com/seu-usuario/urban/releases/latest/download/urban.iso
 
 No Linux:
 bash
-
-## Identifique o dispositivo (ex: /dev/sdb)
+Identifique o dispositivo (ex: /dev/sdb)
+```
 lsblk
 sudo dd if=urban.iso of=/dev/sdX bs=4M status=progress && sync
+```
 
 No Windows:
 
     Use Rufus (recomendado) ou BalenaEtcher
-
     Selecione "DD Image" mode no Rufus
 
     Escolha o pendrive de destino
