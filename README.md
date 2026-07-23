@@ -1,9 +1,9 @@
 # 🐧 Urban OS
 
 Urban é um sistema operacional portátil baseado em Debian, projetado para ser seu ambiente de trabalho onde quer que você vá. Leve o seu sistema completo no bolso e conecte em qualquer computador.
-🎯 O Conceito
-
-    "Seu sistema, em qualquer lugar"
+```
+🎯 O Conceito - "Seu sistema, em qualquer lugar"
+```
 
 ## Urban foi criado para profissionais que precisam de mobilidade total:
 
