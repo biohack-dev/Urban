@@ -80,9 +80,11 @@ Como funciona:
 1. Baixe a imagem ISO
 bash
 
-wget https://github.com/seu-usuario/urban/releases/latest/download/urban.iso
+wget 
 
-2. Grave no pendrive
+2. Descompact com 7zip ou Gzip
+
+3. Grave no pendrive
 
 No Linux:
 bash
