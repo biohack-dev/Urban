@@ -1,1 +1,116 @@
-# Urban
+# 🐧 Urban OS
+
+Urban é um sistema operacional portátil baseado em Debian, projetado para ser seu ambiente de trabalho onde quer que você vá. Leve o seu sistema completo no bolso e conecte em qualquer computador.
+🎯 O Conceito
+
+    "Seu sistema, em qualquer lugar"
+
+## Urban foi criado para profissionais que precisam de mobilidade total:
+
+    🔌 Conecte em qualquer computador (laboratório, escola, trabalho, cliente)
+
+    💾 Mantenha suas ferramentas, configurações e dados sempre com você
+
+    🚀 Inicialização rápida e ambiente consistente em qualquer hardware
+
+    🔒 Segurança e privacidade - seus dados estão sob seu controle
+
+## ✨ Características
+
+    💾 Ultra compacto: Cabe em um pendrive de apenas 4GB
+
+    💿 Persistência total: Todos os seus dados, arquivos e programas são salvos
+
+    🔄 Universal: Funciona em qualquer PC com suporte a boot USB
+
+    🖥️ Modo texto: Leve e rápido, ideal para servidores e administração
+
+    🔧 Personalizável: Instale apenas o que você precisa
+
+    ⚡ Boot rápido: Pronto para uso em segundos
+
+    🌐 Plug and Play: Reconhece automaticamente diferentes hardwares
+
+## 🚀 Casos de Uso
+🛠️ Administração de Sistemas
+
+    Ferramentas de rede sempre à mão
+
+    Ambiente de diagnóstico portátil
+
+    Resgate de sistemas com problemas
+
+🎓 Educação e Treinamentos
+
+    Ambiente de aprendizado consistente
+
+    Laboratórios práticos sem instalação
+
+    Mesmo sistema em diferentes computadores
+
+👨‍💻 Desenvolvimento
+
+    Seu ambiente de desenvolvimento portátil
+
+    Ferramentas e configurações personalizadas
+
+    Projetos sempre disponíveis
+
+🔐 Segurança e Privacidade
+
+    Evite deixar rastros em computadores públicos
+
+    Criptografe seus dados
+
+    Controle total do seu sistema
+
+🔑 Credenciais de Acesso
+Usuário	Senha
+root	urban
+
+    ⚠️ Importante: Altere a senha do root imediatamente após o primeiro boot:
+    bash
+
+passwd
+
+## 💾 O Sistema de Persistência
+
+O Urban usa um sistema de persistência inteligente que mantém suas alterações entre diferentes computadores:
+O que é preservado:
+
+    ✅ Todos os arquivos e documentos
+    ✅ Pacotes e programas instalados
+    ✅ Configurações do sistema
+    ✅ Histórico de comandos
+    ✅ Chaves SSH e certificados
+    ✅ Scripts e automações
+
+Como funciona:
+
+    Você conecta o pendrive em qualquer computador
+    O sistema inicia com sua configuração personalizada
+    Todas as alterações são salvas automaticamente
+    Pronto para usar em outro computador
+
+## 📥 Instalação
+1. Baixe a imagem ISO
+bash
+
+wget https://github.com/seu-usuario/urban/releases/latest/download/urban.iso
+
+2. Grave no pendrive
+
+No Linux:
+bash
+
+# Identifique o dispositivo (ex: /dev/sdb)
+lsblk
+sudo dd if=urban.iso of=/dev/sdX bs=4M status=progress && sync
+
+No Windows:
+
+    Use Rufus (recomendado) ou BalenaEtcher
+
+    Selecione "DD Image" mode no Rufus
+
+    Escolha o pendrive de destino
