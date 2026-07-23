@@ -52,10 +52,10 @@ Urban é um sistema operacional portátil baseado em Debian, projetado para ser 
 Usuário	Senha
 root	urban
 ```
-    ⚠️ Importante: Altere a senha do root imediatamente após o primeiro boot:
-    bash
-
-passwd
+⚠️ Importante: Altere a senha do root imediatamente após o primeiro boot:
+```
+Comando: passwd
+```
 
 ## 💾 O Sistema de Persistência
 
