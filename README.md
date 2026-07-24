@@ -100,3 +100,34 @@ No Windows:
     Selecione "DD Image" mode no Rufus
 
     Escolha o pendrive de destino
+
+
+
+## 📜 Descrição dos Scripts
+
+make.sh
+```
+Cria a imagem Urban.img de 4GB, particiona, formata em ext4 e prepara o bootloader.
+```
+
+make_base.sh
+```
+Instala o Debian 12 (Bookworm) via debootstrap dentro da imagem montada.
+```
+
+montar.sh
+```
+Monta a imagem, configura os sistemas especiais (dev, proc, sys) e entra no ambiente chroot para customização.
+```
+
+desmontar.sh
+```
+Desmonta todos os sistemas e remove o loop device da imagem.
+```
+## 🚀 Fluxo Rápido
+```
+./make.sh          # Cria imagem
+./make_base.sh     # Instala Debian
+./montar.sh        # Entra no chroot para customizar
+./desmontar.sh     # Finaliza
+```
