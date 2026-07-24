@@ -78,9 +78,9 @@ Como funciona:
 
 ## 📥 Instalação
 1. Baixe a imagem ISO
-bash
-
+```
 wget https://drive.google.com/file/d/1wxym-3-L0caGZhrrZaWC5zj1ZaR-LRf3/view?usp=sharing
+```
 
 2. Descompact com 7zip ou Gzip
 
