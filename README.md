@@ -134,5 +134,6 @@ Desmonta todos os sistemas e remove o loop device da imagem.
 ./make.sh          # Cria imagem
 ./make_base.sh     # Instala Debian
 ./montar.sh        # Entra no chroot para customizar
+./install.sh       # Instalar programas dentro do chroot
 ./desmontar.sh     # Finaliza
 ```
