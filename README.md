@@ -115,14 +115,14 @@ make_base.sh
 Instala o Debian 12 (Bookworm) via debootstrap dentro da imagem montada.
 ```
 
-install.sh
-```
-Instala programas "basicos".
-```
-
 montar.sh
 ```
 Monta a imagem, configura os sistemas especiais (dev, proc, sys) e entra no ambiente chroot para customização.
+```
+
+install.sh
+```
+Instala programas "basicos".
 ```
 
 desmontar.sh
